@@ -2,14 +2,37 @@
 <html lang="en">
 
 <head>
-  <script src="/lib/p5.js"></script>
-
-  <link rel="stylesheet" type="text/css" href="styles/style.css">
   <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>p5.js PWA starter</title>
+  <meta name="description" content="p5.js PWA starter template" />
+
+  <link rel="icon" href="/images/icons/favicon.ico" type="image/x-icon" />
+  
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="apple-mobile-web-app-title" content="p5.js PWA starter" />
+  <link rel="apple-touch-icon" href="/images/icons/152.png" />
+  <meta name="theme-color" content="#FF8FB9" />
+
+
+  <link rel="stylesheet" type="text/css" href="/styles/style.css">
+
+  <script src="/lib/p5.min.js"></script>
 
 </head>
 
 <body>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => navigator.serviceWorker.register("/service-worker.js") );
+    }
+  </script>
+
   <script src="scripts/sketch.js"></script>
 </body>
 
