@@ -1,0 +1,14 @@
+{
+  "name": "p5js-pwa-starter",
+  "author": "Christian Buckowitz <cbuckowitz@gmail.com>",
+  "version": "1.0.0",
+  "description": "Starter template for a p5.js PWA with VSCode devcontainer",
+  "homepage": "https://github.com/cbuckowitz/p5js-pwa-starter",
+  "license": "MIT",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server --port=8082"
+  },
+  "devDependencies": {}
+}

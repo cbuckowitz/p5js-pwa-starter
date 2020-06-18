@@ -1,2 +1,5 @@
 # p5js-pwa-starter
-p5.js pwa starter template
+
+Starter template for a p5.js PWA with VSCode devcontainer
+
+
