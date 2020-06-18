@@ -12,7 +12,7 @@ const STATIC_CACHE_FILES = [
   "/p5js-pwa-starter/index.html",
   "/p5js-pwa-starter/scripts/sketch.js",
   "/p5js-pwa-starter/lib/p5.min.js",
-  "/p5js-pwa-starter/styles/style.css"
+  "/p5js-pwa-starter/styles/style.css"  
 ];
 
 self.addEventListener("install", evt => {
