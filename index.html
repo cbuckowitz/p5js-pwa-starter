@@ -10,7 +10,7 @@
   <meta name="description" content="p5.js PWA starter template" />
 
   <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon" />
-  
+
   <link rel="manifest" href="manifest.json" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
@@ -29,7 +29,9 @@
 
   <script>
     if ("serviceWorker" in navigator) {
-      window.addEventListener("load", () => navigator.serviceWorker.register("service-worker.js") );
+      window.addEventListener("load", () => navigator.serviceWorker.register("service-worker.js").then(reg => {
+        console.log('Registration succeeded. Scope is ' + reg.scope);
+      }));
     }
   </script>
 
