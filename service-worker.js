@@ -4,10 +4,10 @@ const STATIC_CACHE_NAME = "static-cache-v1";
 
 const STATIC_CACHE_FILES = [
   "/",
-  "/index.html",
-  "/scripts/sketch.js",
-  "/lib/p5.min.js",
-  "/styles/style.css"
+  "index.html",
+  "scripts/sketch.js",
+  "lib/p5.min.js",
+  "styles/style.css"
 ];
 
 self.addEventListener("install", evt => {
