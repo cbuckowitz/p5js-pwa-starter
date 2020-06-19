@@ -1,6 +1,6 @@
 "use strict";
 
-const STATIC_CACHE_NAME = "static-cache-v3";
+const STATIC_CACHE_NAME = "static-cache-v4";
 
 const STATIC_CACHE_FILES = [
   "/",
