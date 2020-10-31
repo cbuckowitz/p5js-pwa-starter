@@ -5,6 +5,7 @@
   "mount": [
     ["/images","./images"],
     ["/lib", "./lib"],
-    ["/styles", "./styles"]
+    ["/styles", "./styles"],
+    ["/p5js-pwa-starter", "./"]
   ]
 }
