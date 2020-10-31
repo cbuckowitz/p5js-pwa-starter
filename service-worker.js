@@ -1,19 +1,23 @@
 "use strict";
 
-const STATIC_CACHE_NAME = "static-cache-v6";
+const STATIC_CACHE_NAME = "static-cache-v8";
 
 const STATIC_CACHE_FILES = [
   "/",
   "/index.html",
   "/src/sketch.js",
-  "/lib/p5.js",
+  "/lib/p5.min.js",
   "/styles/style.css",
+  "/manifest.json",
+  "/favicon.ico"
 ];
 
 
 self.addEventListener("install", evt => {
   evt.waitUntil(
-    caches.open(STATIC_CACHE_NAME).then(cache => cache.addAll(STATIC_CACHE_FILES)).catch(
+    caches.open(STATIC_CACHE_NAME)
+    .then(cache => cache.addAll(STATIC_CACHE_FILES))
+    .catch(
       err => console.error(err)
     )
   );
