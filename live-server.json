@@ -1,0 +1,10 @@
+{
+  "port": 8082,
+  "root": "/src",
+  "file": "index.html",
+  "mount": [
+    ["/images","./images"],
+    ["/lib", "./lib"],
+    ["/styles", "./styles"]
+  ]
+}
