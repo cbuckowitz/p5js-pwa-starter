@@ -8,7 +8,8 @@
     }, {
       "src": "images/icons/196.png",
       "sizes": "196x196",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }, {
       "src": "images/icons/256.png",
       "sizes": "256x256",

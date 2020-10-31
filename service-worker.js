@@ -1,18 +1,13 @@
 "use strict";
 
-const STATIC_CACHE_NAME = "static-cache-v5";
+const STATIC_CACHE_NAME = "static-cache-v6";
 
 const STATIC_CACHE_FILES = [
   "/",
   "/index.html",
-  "/scripts/sketch.js",
-  "/lib/p5.min.js",
+  "/src/sketch.js",
+  "/lib/p5.js",
   "/styles/style.css",
-  "/p5js-pwa-starter/",
-  "/p5js-pwa-starter/index.html",
-  "/p5js-pwa-starter/scripts/sketch.js",
-  "/p5js-pwa-starter/lib/p5.min.js",
-  "/p5js-pwa-starter/styles/style.css"
 ];
 
 
